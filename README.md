@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This project is designed to showcase my skills
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, and modern libraries/frameworks
+- **Frontend:** React, Tailwind
 - **Backend:**
 
 ## ✨ Features
