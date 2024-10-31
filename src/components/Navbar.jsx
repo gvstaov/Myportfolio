@@ -10,6 +10,9 @@ const Navbar = () => {
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/gustavoavlis"
             target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/gvstaov"
+            target="_blank"
       </div>
     </nav>
   );
