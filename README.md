@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This project is designed to showcase my skills
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, and modern libraries/frameworks
+- **Frontend:** React, Tailwind
 - **Backend:**
 
 ## ✨ Features
@@ -13,7 +13,6 @@ Welcome to my personal portfolio! This project is designed to showcase my skills
 - Fully responsive for mobile and desktop users
 - A dynamic and user-friendly interface
 - Integrated form for easy contact
-- Available in multiple languages (English and Portuguese)
 
 ## 🚀 Purpose
 
