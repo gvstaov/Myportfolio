@@ -12,7 +12,6 @@ Welcome to my personal portfolio! This project is designed to showcase my skills
 - A minimalistic and modern design
 - Fully responsive for mobile and desktop users
 - A dynamic and user-friendly interface
-- Integrated form for easy contact
 
 ## 🚀 Purpose
 
