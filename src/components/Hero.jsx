@@ -28,6 +28,8 @@ const Hero = () => {
               src={profilePic}
               alt="Gustavo Profile"
               className="border border-stone-900 rounded-3xl"
+              width={650}
+              height={650}
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
@@ -35,6 +37,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2">
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={containerVariants}
+          ></motion.div>
           <div className="flex flex-col items-center lg:items-start mt-10">
             <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl">
               Gustavo Silva
