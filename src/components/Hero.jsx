@@ -51,14 +51,18 @@ const Hero = () => {
               <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
                 {HERO_CONTENT}
               </p>
+              <div className="flex flex-wrap justify-center gap-6 mb-10"></div>
               <a
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+                className="relative"
               >
-                Download Resume
+                <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"></span>
+                <span className="font-bold relative inline-block h-full w-25 rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
+                  MEU CURRÍCULO
+                </span>
               </a>
             </span>
           </div>

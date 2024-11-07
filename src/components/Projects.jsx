@@ -3,7 +3,7 @@ import { PROJECTS } from "../constants";
 const Projects = () => {
   return (
     <div className="pb-4">
-      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      <h2 className="my-20 text-center text-4xl">Projetos</h2>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
@@ -21,7 +21,7 @@ const Projects = () => {
               <p className="mb-4 text-stone-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
-                  className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                  className="mr-2 rounded bg-yellow-400 p-2 text-sm font-medium text-gray-900"
                   key={index}
                 >
                   {tech}
