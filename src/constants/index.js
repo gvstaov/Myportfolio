@@ -33,17 +33,17 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
   },
   {
-    title: "Meu Portfólio",
+    title: "Agendify",
     image: project3,
     description:
-      "Meu portfólio pessoal, feito para reforçar meu aprendizado e exibir meu trabalho.",
-    technologies: ["Javascript", "CSS", "React", "Tailwind"],
+      "Bot inteligente com fluxo de atendimento automático para agendamento de consultas com integração ao Excel.",
+    technologies: ["Javascript", "Express"],
   },
   {
     title: "MedConnect",
     image: project4,
     description:
-      "Plataforma para realização de consultas médicas, além do cadastro de médicos e pacientes.",
+      "Plataforma para agendamento de consultas médicas, além do cadastro de médicos e pacientes.",
     technologies: ["HTML", "CSS", "Python", "MongoDB"],
   },
 ];
