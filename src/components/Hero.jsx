@@ -41,31 +41,47 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             variants={containerVariants}
-          ></motion.div>
-          <div className="flex flex-col items-center lg:items-start mt-10">
-            <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl">
+            className="flex flex-col items-center lg:items-start mt-10"
+          >
+            <motion.h2
+              variants={childVariants}
+              className="pb-2 text-4xl tracking-tighter lg:text-8xl"
+            >
               Gustavo Silva
-            </h2>
-            <span className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
+            </motion.h2>
+            <motion.span
+              variants={childVariants}
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+            >
               Full Stack Developer
-              <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
+              <motion.p
+                variants={childVariants}
+                className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
+              >
                 {HERO_CONTENT}
-              </p>
+              </motion.p>
               <div className="flex flex-wrap justify-center gap-6 mb-10"></div>
-              <a
+              <motion.a
+                variants={childVariants}
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
                 className="relative"
               >
-                <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"></span>
-                <span className="font-bold relative inline-block h-full w-25 rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
+                <motion.span
+                  variants={childVariants}
+                  className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"
+                ></motion.span>
+                <motion.span
+                  variants={childVariants}
+                  className="font-bold relative inline-block h-full w-25 rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900"
+                >
                   MEU CURRÍCULO
-                </span>
-              </a>
-            </span>
-          </div>
+                </motion.span>
+              </motion.a>
+            </motion.span>
+          </motion.div>
         </div>
       </div>
     </div>
